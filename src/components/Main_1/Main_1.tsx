@@ -30,10 +30,7 @@ export default function Main_1() {
   ];
   return (
     <>
-      <article
-        id="Main_1"
-        className="grid mt-[10rem] gap-y-24 place-items-center m-auto max-w-[80rem] text-white"
-      >
+      <article id="Main_1">
         {arrOfCards.map((e, i) => {
           return <TextCard key={i} img={e.img} title={e.title} txt={e.txt} />;
         })}
@@ -45,11 +42,9 @@ export default function Main_1() {
 const TextCard = ({ img, title, txt }) => {
   return (
     <>
-      <div className=" w-[31rem] flex-col items-center flex text-center ">
+      <div className="TextCard">
         <img src={img} alt="img" />
-        <h2 className="text-[1.8rem] font-bold mt-[2rem] mb-[0.4rem] font-[raleway]">
-          {title}
-        </h2>
+        <h2>{title}</h2>
         <p className=" text-[1.2rem]">{txt}</p>
       </div>
     </>

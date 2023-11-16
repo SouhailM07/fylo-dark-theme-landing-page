@@ -5,5 +5,17 @@
 @layer components {
   #Main_1 {
     grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
+    @apply grid gap-y-24 place-items-center m-auto;
+    @apply mt-[10rem] max-w-[80rem];
+    @apply text-white;
+  }
+  .TextCard {
+    @apply flex-col items-center flex;
+    @apply w-[31rem];
+    @apply text-center;
+  }
+  .TextCard h2 {
+    @apply font-bold;
+    @apply text-[1.8rem] mt-[2rem] mb-[0.4rem] font-[raleway];
   }
 }
