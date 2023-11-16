@@ -1,5 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @layer components {
+  header {
+    @apply border-2 flex flex-col items-center;
+    @apply text-white bg-dark-blue-testimonials;
+  }
+  #HeroContainer {
+    @apply relative;
+    @apply mt-[2rem] max-w-[53rem] z-[1];
+    @apply text-center;
+  }
+  #HeroContainer h1 {
+    @apply font-bold;
+    @apply text-[2.5rem] font-[raleway];
+  }
+  #HeroContainer p {
+    @apply text-[1.35rem] px-[7rem] my-[1.5rem];
+  }
+  #HeroContainer button {
+    @apply font-bold  rounded-full from-cyan-gradient to-blue-gradient;
+    @apply w-[20rem] text-[1.1rem] py-[1rem];
+    @apply bg-gradient-to-r;
+  }
 }

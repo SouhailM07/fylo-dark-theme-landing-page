@@ -14,6 +14,11 @@
         "light-red-error": "#ff3f51", // Light Red (error): hsl(0, 100%, 63%)
       },
     },
+    screens: {
+      xs: "0px",
+      md: "768px",
+      lg: "1024px",
+    },
   },
   plugins: [],
 };
