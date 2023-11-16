@@ -1,5 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @layer components {
+  #Main_1 {
+    grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
+  }
 }
