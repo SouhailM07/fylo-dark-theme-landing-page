@@ -3,6 +3,29 @@
 @tailwind utilities;
 
 @layer components {
+  #Email {
+    @apply border-2 border-red-500 rounded-lg relative m-auto;
+    @apply top-[9rem] py-[3rem] shadow-xl max-w-[70rem];
+    @apply bg-dark-blue-intro text-white text-center;
+  }
+  #Email h1 {
+    @apply font-bold;
+    @apply text-[2.5rem] mb-[1rem] font-[raleway];
+  }
+  #Email p {
+    @apply border-2 border-green-500 m-auto;
+    @apply max-w-[40rem] mb-[2rem];
+  }
+  #Email div {
+    @apply flex;
+    @apply xs:flex-col xs:items-center xs:justify-start;
+    @apply md:flex-row md:justify-center;
+  }
+  #Email input[type="text"] {
+    @apply rounded-full outline-none;
+    @apply py-[1rem] w-[50%] pl-[2rem];
+    @apply text-black;
+  }
   #Email button {
     @apply font-bold  rounded-full from-cyan-gradient to-blue-gradient;
     @apply w-[16rem] text-[1rem] py-[1rem] ml-[2rem];

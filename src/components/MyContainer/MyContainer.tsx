@@ -9,7 +9,7 @@ export default function MyContainer() {
       <main>
         <Main_1 />
         {/* <Main_3 /> */}
-        {/* <Email /> */}
+        <Email />
       </main>
       {/* <Footer /> */}
     </>
