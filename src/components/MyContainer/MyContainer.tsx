@@ -5,7 +5,7 @@ export default function MyContainer() {
   return (
     <>
       <Navbar />
-      {/* <Hero /> */}
+      <Hero />
       <main>
         {/* <Main_1 /> */}
         {/* <Main_3 /> */}

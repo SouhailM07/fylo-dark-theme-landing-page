@@ -7,7 +7,7 @@ export default function Hero() {
   return (
     <>
       <header className="">
-        <img src={heroImg} alt="" className="h-[33rem]" />
+        <img src={heroImg} alt="" className="md:h-[33rem] xs:h-[18rem]" />
         <div id="HeroContainer">
           <h1>All your files in one secure location, accessible anywhere.</h1>
           <p>

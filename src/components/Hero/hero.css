@@ -14,10 +14,10 @@
   }
   #HeroContainer h1 {
     @apply font-bold;
-    @apply text-[2.5rem] font-[raleway];
+    @apply xs:text-[1.9rem] px-[1rem] md:text-[2.5rem] font-[raleway];
   }
   #HeroContainer p {
-    @apply text-[1.35rem] px-[7rem] my-[1.5rem];
+    @apply md:text-[1.35rem] xs:text-[1.1rem] xs:px-[2.8rem] md:px-[7rem] my-[1.5rem];
   }
   #HeroContainer button {
     @apply font-bold  rounded-full from-cyan-gradient to-blue-gradient;
