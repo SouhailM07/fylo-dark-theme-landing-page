@@ -4,17 +4,17 @@
 
 @layer components {
   #Email {
-    @apply border-2 border-red-500 rounded-lg relative m-auto;
-    @apply top-[9rem] py-[3rem] shadow-xl max-w-[70rem];
+    @apply rounded-lg relative m-auto;
+    @apply top-[9rem] py-[3rem] shadow-xl xs:w-[88vw] md:w-auto md:max-w-[70rem];
     @apply bg-dark-blue-intro text-white text-center;
   }
   #Email h1 {
     @apply font-bold;
-    @apply text-[2.5rem] mb-[1rem] font-[raleway];
+    @apply xs:text-[1.7rem] md:text-[2.5rem] mb-[1rem] font-[raleway];
   }
   #Email p {
-    @apply border-2 border-green-500 m-auto;
-    @apply max-w-[40rem] mb-[2rem];
+    @apply m-auto;
+    @apply max-w-[47rem] px-[2rem] mb-[2rem];
   }
   #Email div {
     @apply flex;
@@ -23,12 +23,12 @@
   }
   #Email input[type="text"] {
     @apply rounded-full outline-none;
-    @apply py-[1rem] w-[50%] pl-[2rem];
+    @apply py-[1rem] xs:w-[88%] xs:mb-[2rem] md:mb-[0rem] md:w-[50%] pl-[2rem];
     @apply text-black;
   }
   #Email button {
     @apply font-bold  rounded-full from-cyan-gradient to-blue-gradient;
-    @apply w-[16rem] text-[1rem] py-[1rem] ml-[2rem];
+    @apply xs:w-[88%] md:w-[16rem] text-[1rem] py-[1rem] md:ml-[2rem];
     @apply bg-gradient-to-r;
   }
 }
