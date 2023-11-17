@@ -4,7 +4,7 @@
 
 @layer components {
   header {
-    @apply border-2 flex flex-col items-center;
+    @apply flex flex-col items-center;
     @apply text-white bg-dark-blue-testimonials;
   }
   #HeroContainer {

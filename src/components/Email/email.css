@@ -1,5 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @layer components {
+  #Email button {
+    @apply font-bold  rounded-full from-cyan-gradient to-blue-gradient;
+    @apply w-[16rem] text-[1rem] py-[1rem] ml-[2rem];
+    @apply bg-gradient-to-r;
+  }
 }

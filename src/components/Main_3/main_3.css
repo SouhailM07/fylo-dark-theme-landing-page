@@ -1,5 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @layer components {
+  #main_3 {
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    @apply grid place-items-center;
+    @apply mt-[4rem];
+    @apply text-white;
+  }
 }
