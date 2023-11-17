@@ -1,5 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @layer components {
+  nav {
+    @apply flex justify-between items-center m-auto;
+    @apply w-[90%] mt-[3rem];
+  }
+  nav ul {
+    @apply flex items-center space-x-14;
+    @apply text-[1.3rem];
+  }
 }
