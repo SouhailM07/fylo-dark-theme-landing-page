@@ -7,7 +7,7 @@ export default function MyContainer() {
       <Navbar />
       <Hero />
       <main>
-        {/* <Main_1 /> */}
+        <Main_1 />
         {/* <Main_3 /> */}
         {/* <Email /> */}
       </main>
