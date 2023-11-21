@@ -1,5 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @layer components {
+  #Main_2 {
+    @apply border-2 flex justify-between items-center m-auto;
+    @apply max-w-[90rem];
+    @apply text-white;
+  }
+  #Main_2-s1 {
+    @apply w-[50%] border-2 border-green-500;
+  }
+  #Main_2-s2 {
+    @apply flex flex-col justify-between;
+    @apply w-[45%] h-[20rem];
+  }
+  #Main_2-s2 h1 {
+    @apply font-bold;
+    @apply text-[2.6rem] w-[22rem] leading-[3.5rem];
+  }
+  #Main_2-s2 p {
+    @apply text-[1.3rem];
+  }
+  #Main_2-s2 div {
+    @apply text-[1.3rem];
+    @apply flex space-x-3 items-center underline;
+    @apply text-[1.3rem] underline-offset-[0.5rem];
+    @apply text-cyan-gradient;
+  }
 }
