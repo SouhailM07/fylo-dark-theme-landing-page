@@ -1,7 +1,7 @@
 import "./main_2.css";
 // assets
-import main_2Img from "../../../public/illustration-stay-productive.png";
-import linkLogo from "../../../public/icon-arrow.svg";
+import main_2Img from "/illustration-stay-productive.png";
+import linkLogo from "/icon-arrow.svg";
 
 export default function Main_2() {
   return (

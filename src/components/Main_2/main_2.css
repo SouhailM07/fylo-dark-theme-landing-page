@@ -4,26 +4,27 @@
 
 @layer components {
   #Main_2 {
-    @apply border-2 flex md:flex-row xs:flex-col justify-between items-center m-auto;
-    @apply max-w-[90rem];
+    @apply flex md:flex-row xs:flex-col justify-between items-center m-auto;
+    @apply md:max-w-[90rem] xs:max-w-[30rem] xs:px-[2rem];
     @apply text-white;
   }
   #Main_2-s1 {
-    @apply w-[50%] border-2 border-green-500 md:mb-[0] xs:mb-[2rem];
+    @apply md:w-[50%] w-full md:mb-[0] xs:mb-[2rem];
   }
   #Main_2-s2 {
     @apply flex flex-col justify-between;
-    @apply w-[45%] lg:h-[20rem] md:h-[23vw];
+    @apply md:w-[45%] lg:h-[20rem] md:h-[23vw]  xs:w-full;
   }
   #Main_2-s2 h1 {
     @apply font-bold;
-    @apply lg:text-[2.6rem] md:text-[2.6vw] md:w-[22vw] lg:w-[22rem] md:leading-[3.5vw] lg:leading-[3.5rem];
+    @apply lg:text-[2.6rem] md:text-[2.6vw] md:w-[22vw] lg:w-[22rem] md:leading-[3.5vw] lg:leading-[3.5rem] xs:text-[1.4rem];
   }
   #Main_2-s2 p {
-    @apply lg:text-[1.3rem] md:text-[1.4vw];
+    @apply lg:text-[1.3rem] md:text-[1.4vw] xs:text-[1.1rem];
+    @apply xs:my-[0.6rem] md:my-[0];
   }
   #Main_2-s2 div {
-    @apply lg:text-[1.3rem] md:text-[1.4vw];
+    @apply lg:text-[1.3rem] md:text-[1.4vw] xs:text-[1rem];
     @apply flex space-x-3 items-center underline;
     @apply underline-offset-[0.5rem];
     @apply text-cyan-gradient;
