@@ -4,28 +4,28 @@
 
 @layer components {
   #Main_2 {
-    @apply border-2 flex justify-between items-center m-auto;
+    @apply border-2 flex md:flex-row xs:flex-col justify-between items-center m-auto;
     @apply max-w-[90rem];
     @apply text-white;
   }
   #Main_2-s1 {
-    @apply w-[50%] border-2 border-green-500;
+    @apply w-[50%] border-2 border-green-500 md:mb-[0] xs:mb-[2rem];
   }
   #Main_2-s2 {
     @apply flex flex-col justify-between;
-    @apply w-[45%] h-[20rem];
+    @apply w-[45%] lg:h-[20rem] md:h-[23vw];
   }
   #Main_2-s2 h1 {
     @apply font-bold;
-    @apply text-[2.6rem] w-[22rem] leading-[3.5rem];
+    @apply lg:text-[2.6rem] md:text-[2.6vw] md:w-[22vw] lg:w-[22rem] md:leading-[3.5vw] lg:leading-[3.5rem];
   }
   #Main_2-s2 p {
-    @apply text-[1.3rem];
+    @apply lg:text-[1.3rem] md:text-[1.4vw];
   }
   #Main_2-s2 div {
-    @apply text-[1.3rem];
+    @apply lg:text-[1.3rem] md:text-[1.4vw];
     @apply flex space-x-3 items-center underline;
-    @apply text-[1.3rem] underline-offset-[0.5rem];
+    @apply underline-offset-[0.5rem];
     @apply text-cyan-gradient;
   }
 }
