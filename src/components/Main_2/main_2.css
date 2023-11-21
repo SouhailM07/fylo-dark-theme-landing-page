@@ -5,7 +5,7 @@
 @layer components {
   #Main_2 {
     @apply flex md:flex-row xs:flex-col justify-between items-center m-auto;
-    @apply md:max-w-[90rem] xs:max-w-[30rem] xs:px-[2rem];
+    @apply md:max-w-[90rem] xs:max-w-[30rem] xs:px-[2rem] xs:my-[7rem];
     @apply text-white;
   }
   #Main_2-s1 {

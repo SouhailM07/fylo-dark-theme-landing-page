@@ -1,16 +1,12 @@
 import "./main_3.css";
 // assets
-import main_3_img_1 from "../../../public/profile-1.jpg";
-import main_3_img_2 from "../../../public/profile-2.jpg";
-import main_3_img_3 from "../../../public/profile-3.jpg";
-import quoteImg from "../../../public/bg-quotes.png";
+import main_3_img_1 from "/profile-1.jpg";
+import main_3_img_2 from "/profile-2.jpg";
+import main_3_img_3 from "/profile-3.jpg";
+import quoteImg from "/bg-quotes.png";
 
 export default function Main_3() {
   let arrOfCards = [
-    {
-      name: "Satish Patel",
-      img: main_3_img_1,
-    },
     {
       name: "Bruce McKenzie",
       img: main_3_img_2,
@@ -23,13 +19,11 @@ export default function Main_3() {
   return (
     <>
       <article id="main_3">
-        <div
-          id="main_3-quoteImg"
-          className=" w-[93vw] relative top-[5rem] z-[0] m-auto"
-        >
-          {/* <img src={quoteImg} alt="img" className="border-2  border-red-500" /> */}
-        </div>
         <div id="main_3-container">
+          <div>
+            <img id="main_3-quote" src={quoteImg} alt="img" />
+            <CommentCard img={main_3_img_1} name="Satish Patel" />
+          </div>
           {arrOfCards.map((e, i) => {
             return <CommentCard key={i} img={e.img} name={e.name} />;
           })}

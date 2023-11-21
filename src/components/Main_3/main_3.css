@@ -9,6 +9,9 @@
     @apply mt-[4rem]  max-w-[95rem] gap-y-8 relative z-[1] m-auto;
     @apply text-white;
   }
+  #main_3-quote {
+    @apply absolute md:translate-y-[-2.5rem] z-[-1] md:h-auto xs:h-[2.5rem] xs:translate-y-[-2rem];
+  }
 }
 
 .CommentCard {

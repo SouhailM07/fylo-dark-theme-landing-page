@@ -12,15 +12,15 @@ import {
 export default function MyContainer() {
   return (
     <>
-      {/* <Navbar /> */}
-      {/* <Hero /> */}
+      <Navbar />
+      <Hero />
       <main>
-        {/* <Main_1 /> */}
+        <Main_1 />
         <Main_2 />
-        {/* <Main_3 /> */}
-        {/* <Email /> */}
+        <Main_3 />
+        <Email />
       </main>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }
