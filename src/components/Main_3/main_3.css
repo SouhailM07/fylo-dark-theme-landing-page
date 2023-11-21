@@ -3,10 +3,30 @@
 @tailwind utilities;
 
 @layer components {
-  #main_3 {
+  #main_3-container {
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     @apply grid place-items-center;
-    @apply mt-[4rem];
+    @apply mt-[4rem]  max-w-[95rem] gap-y-8 relative z-[1] m-auto;
     @apply text-white;
   }
+}
+
+.CommentCard {
+  @apply px-[1.8rem] py-[1.5rem] font-[raleway] xs:w-[90vw] sm:w-[29rem];
+  @apply bg-dark-blue-testimonials;
+}
+@media screen and (max-width: 430px) {
+  #main_3-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.CommentCard p {
+  @apply my-[1.3rem];
+  line-height: 1.7rem;
+}
+
+.CommentCard img {
+  @apply rounded-full;
+  @apply h-[2.5rem] mr-[1rem];
 }

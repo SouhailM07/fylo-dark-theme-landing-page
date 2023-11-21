@@ -24,5 +24,4 @@ dist-ssr
 *.sw?
 #My custom files
 README.md
-public/
 project-files/

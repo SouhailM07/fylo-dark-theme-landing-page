@@ -4,12 +4,12 @@ import { Navbar, Hero, Main_1, Main_3, Email, Footer } from "../../components";
 export default function MyContainer() {
   return (
     <>
-      <Navbar />
-      <Hero />
+      {/* <Navbar /> */}
+      {/* <Hero /> */}
       <main>
-        <Main_1 />
-        {/* <Main_3 /> */}
-        <Email />
+        {/* <Main_1 /> */}
+        <Main_3 />
+        {/* <Email /> */}
       </main>
       {/* <Footer /> */}
     </>
