@@ -1,6 +1,4 @@
 import "./footer.css";
-// components
-import { Logo } from "../../components";
 // assets
 import logoImg from "/logo.svg";
 import phoneLogo from "/icon-phone.svg";
@@ -13,12 +11,12 @@ import locationLogo from "/icon-location.svg";
 export default function Footer() {
   return (
     <>
-      <footer className="px-[2rem] md:px-[7rem] pb-[5rem] md:pb-[10rem] place-items-center items-center pt-[14rem] text-white bg-dark-blue-footer border-2 border-red-500">
+      <footer>
         <div className="">
           <img
             src={logoImg}
             alt="Logo"
-            className="md:h-auto md:w-auto h-[4rem]"
+            className="md:w-auto h-[4rem] md:h-[2rem]"
           />
         </div>
         <div className=" mt-[2rem] flex-col md:flex-row flex flex-wrap justify-between">
@@ -38,9 +36,9 @@ export default function Footer() {
 let F1 = () => {
   return (
     <>
-      <div className="flex space-x-10  my-[1rem] ">
+      <div className="flex space-x-10 md:space-x-5 my-[1rem] md:my-[0rem] ">
         <img src={locationLogo} alt="" className="h-[1.5rem]" />
-        <p className=" w-[20rem] ">
+        <p className=" w-[20rem] md:mb-[3rem]">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua
         </p>
@@ -63,7 +61,7 @@ let F2 = () => {
               <img
                 src={e.img}
                 alt=""
-                className="h-[1.2rem] my-[8px] mr-[2rem]"
+                className="h-[1.2rem] my-[8px] mr-[2rem] "
               />
               <span>{e.txt}</span>
             </li>
@@ -81,7 +79,7 @@ let F3 = () => {
   ];
   return (
     <>
-      <div className="h-[18rem] my-[4rem] justify-between flex flex-col md:flex-row md:space-x-[3rem] font-[overPass] font-bold md:mx-2">
+      <div className="h-[18rem] md:mx-[2rem] md:h-auto md:my-[0rem]  my-[4rem] justify-between flex flex-col md:flex-row md:space-x-[3rem] font-[overPass] font-bold ">
         <ul className="flex flex-col space-y-3 md:space-y-5 ">
           {ul_3[0].map((e, i) => {
             return <li key={i}>{e}</li>;
@@ -102,7 +100,7 @@ let F4 = () => {
 
   return (
     <>
-      <ul className="flex m-auto space-x-7">
+      <ul className="flex md:m-0 m-auto space-x-7">
         {ul_4.map((e, i) => {
           return (
             <li key={i}>
