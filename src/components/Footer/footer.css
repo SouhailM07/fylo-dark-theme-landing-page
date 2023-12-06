@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 footer {
-  @apply place-items-center items-center border-2 border-red-500;
+  @apply place-items-center items-center;
   @apply md:px-[7rem] md:pb-[10rem] px-[2rem] pb-[5rem] pt-[14rem];
   @apply text-white bg-dark-blue-footer;
 }

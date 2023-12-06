@@ -5,7 +5,7 @@ import MyContainer from "./components/MyContainer/MyContainer";
 
 function App() {
   let body = document.body;
-  body.className = "bg-dark-blue-main";
+  body.className = "bg-[#181f2b]";
   return (
     <>
       <MyContainer />

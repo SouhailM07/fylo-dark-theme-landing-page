@@ -1,6 +1,6 @@
 import "./logo.css";
 
-import logoImg from "../../../public/logo.svg";
+import logoImg from "/logo.svg";
 
 export default function Logo() {
   return (

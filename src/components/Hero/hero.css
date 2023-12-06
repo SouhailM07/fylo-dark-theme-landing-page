@@ -5,7 +5,7 @@
 @layer components {
   header {
     @apply flex flex-col items-center;
-    @apply text-white bg-dark-blue-testimonials;
+    @apply text-white bg-[#1b2230];
   }
   #HeroContainer {
     @apply relative;
@@ -14,7 +14,7 @@
   }
   #HeroContainer h1 {
     @apply font-bold;
-    @apply xs:text-[1.9rem] px-[1rem] md:text-[2.5rem] font-[raleway];
+    @apply text-[1.7rem] px-[2rem] md:text-[2.5rem] font-[raleway];
   }
   #HeroContainer p {
     @apply md:text-[1.35rem] xs:text-[1.1rem] xs:px-[2.8rem] md:px-[7rem] my-[1.5rem];

@@ -6,7 +6,7 @@
   #Main_1 {
     grid-template-columns: repeat(auto-fill, minmax(32rem, 1fr));
     @apply grid gap-y-24 place-items-center m-auto;
-    @apply mt-[10rem] max-w-[80rem];
+    @apply max-w-[80rem];
     @apply text-white;
   }
   .TextCard {

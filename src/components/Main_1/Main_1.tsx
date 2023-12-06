@@ -1,9 +1,9 @@
 import "./main_1.css";
 // assets
-import main_1_img_1 from "../../../public/icon-access-anywhere.svg";
-import main_1_img_2 from "../../../public/icon-security.svg";
-import main_1_img_3 from "../../../public/icon-collaboration.svg";
-import main_1_img_4 from "../../../public/icon-any-file.svg";
+import main_1_img_1 from "/icon-access-anywhere.svg";
+import main_1_img_2 from "/icon-security.svg";
+import main_1_img_3 from "/icon-collaboration.svg";
+import main_1_img_4 from "/icon-any-file.svg";
 
 export default function Main_1() {
   let arrOfCards = [

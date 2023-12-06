@@ -14,7 +14,7 @@ export default function MyContainer() {
     <>
       <Navbar />
       <Hero />
-      <main>
+      <main className="mt-[10rem]">
         <Main_1 />
         <Main_2 />
         <Main_3 />
